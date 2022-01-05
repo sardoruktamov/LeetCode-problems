@@ -1,3 +1,13 @@
+class Solution(object):
+    def myPow(self, x, n):
+        """
+        :type x: float
+        :type n: int
+        :rtype: float
+        """
+        import math
+        result = math.pow(x,n)
+        return result
 
 # import math
 # ## kodli test qilish qismi
