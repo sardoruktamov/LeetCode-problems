@@ -1,3 +1,14 @@
+class Solution(object):
+    def mySqrt(self, x):
+        """
+        :type x: int
+        :rtype: int
+        """
+        import math
+        result = int(math.floor(math.sqrt(x)))
+        return result
+
+
 
 # import math
 # ## kodli test qilish qismi
